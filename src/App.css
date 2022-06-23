@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #a5e7fa;
 }
 
 .boton{
@@ -9,12 +10,106 @@
   width: 100px;
 }
 
+.info{
+  position: absolute;
+  top: 40%;
+  background-color: rgba(255, 255, 255, 0.267);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  height: 55%;
+  width: 93%;
+  margin: 10px;
+  border-radius: 10px;
+}
+.botones{
+  position: absolute;
+  top: 90%;
+  left: 2%;
+}
+.info:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.356);
+}
+.informacion{
+  height: 25%;
+  width: 93%;
+  text-align: left;
+  margin-left: 10%;
+}
+
 .imagen{
-  height: 70px;
-  width: 70px;
+  height: 60px;
+  width: 60px;
+}
+.imagenb{
+  position: absolute;
+  height: 240px;
+  width: 240px;
+  left: 10%;
+}
+.icono{
+  position: absolute;
+  height: 140px;
+  width: 140px;
+  left: 60%;
+  top: 45%;
+}
+.imagenb1{
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 16%;
+  right: 1%;
+}
+.barralateral:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.356);
+}
+.barralateral{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  position: absolute;
+  width: 35%;
+  height: 100%;
+  text-align: center;
+  right: 0px;
+  top: 0px;
+  
 }
 .card {
   /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  height: 20%;
+  width: 20%;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 8px;
+}
+.pokegallery{
+  margin-left: 0px;
+  margin-right: 36%;
+  top: 10%;
+}
+
+.ids{
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 8px;
+  font-size: smaller;
+}
+.ids1{
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 8px;
+  font-size: smaller;
+}
+.habilidades{
+  font-size: smaller;
+}
+.encavezado{
+  background-color: rgba(255, 255, 255, 0.349);
+}
+.color1{
+  background-color: red;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   height: 15%;
@@ -22,65 +117,137 @@
   margin: 10px;
   display: inline-block;
 }
-.pokegallery{
-  margin-left: 45px;
-  margin-right: 45px;
-}
-
-.habilidades{
-  font-size: smaller;
-  text-justify: left;
-}
-.color1{
-  background-color: red;
-}
 .color2{
   background-color: black;
   color: white;
 }
+.botona{
+  position:fixed; bottom:0; z-index:999999;
+  height: 24%;
+  width: 13%;
+  left: 4%;
+  border-radius: 8px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.247);
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.418);
+}
+.order{
+  margin-top: 36%;
+}
+.botona:hover {
+  box-shadow: 0 8px 16px 0 rgba(10, 10, 10, 0.664);
+}
+.botons{
+  position:fixed; bottom:0; z-index:999999;
+  height: 24%;
+  width: 13%;
+  right: 40%;
+  border-radius: 8px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.247);
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.418);
+}
+.botons:hover {
+  box-shadow: 0 8px 16px 0 rgba(10, 10, 10, 0.664);
+}
+
+#grass{
+  background: linear-gradient(to bottom right, rgb(60, 235, 60), rgb(39, 148, 39));
+}
+#fire{
+  background: linear-gradient(to bottom right, rgb(248, 147, 14), rgb(167, 73, 10));
+}
+#water{
+  background: linear-gradient(to bottom right, rgb(39, 111, 247), rgb(14, 27, 145));
+}
+#bug{
+  background: linear-gradient(to bottom right, rgb(0, 167, 0), rgb(1, 85, 1));
+}
+#normal{
+  background: linear-gradient(to bottom right, rgb(184, 138, 107), rgb(196, 104, 43));
+}
+#poison{
+  background: linear-gradient(to bottom right, violet, rgb(168, 63, 168));
+}
+#electric{
+  background: linear-gradient(to bottom right, yellow, rgb(182, 182, 1));
+}
+#ground{
+  background: linear-gradient(to bottom right, rgb(207, 1, 1), rgb(95, 0, 0));
+}
+#fairy{
+  background: linear-gradient(to bottom right, rgb(196, 114, 185), rgb(150, 69, 139));
+}
+#fighting{
+  background: linear-gradient(to bottom right, red, rgb(167, 2, 2));
+}
+#psychic{
+  background: linear-gradient(to bottom right, rgb(255, 0, 212), rgb(139, 1, 116));
+}
+#rock{
+  background: linear-gradient(to bottom right, gray, rgb(80, 80, 80));
+}
+#ghost{
+  background: linear-gradient(to bottom right, rgb(95, 172, 134), rgb(62, 96, 168));
+}
+
+
 .grass{
-  background-color: rgb(60, 235, 60);
+  background: linear-gradient(to bottom right, rgb(60, 235, 60), rgb(39, 148, 39));
+  height: 100%;
 }
 .fire{
-  background-color: rgb(248, 147, 14);
+  background: linear-gradient(to bottom right, rgb(248, 147, 14), rgb(167, 73, 10));
+  height: 100%;
 }
 .water{
-  background-color: rgb(0, 26, 255);
+  background: linear-gradient(to bottom right, rgb(39, 111, 247), rgb(14, 27, 145));
+  height: 100%;
 }
 .bug{
-  background-color: green;
+  background: linear-gradient(to bottom right, rgb(0, 167, 0), rgb(1, 85, 1));
+  height: 100%;
 }
 .normal{
-  background-color: rgba(184, 138, 107, 0.822);
+  background: linear-gradient(to bottom right, rgb(184, 138, 107), rgb(196, 104, 43));
+  height: 100%;
 }
 .poison{
-  background-color: violet;
+  background: linear-gradient(to bottom right, violet, rgb(168, 63, 168));
+  height: 100%;
 }
 .electric{
-  background-color: yellow;
+  background: linear-gradient(to bottom right, yellow, rgb(182, 182, 1));
+  height: 100%;
 }
 .ground{
-  background-color: rgba(128, 0, 0, 0.726);
+  background: linear-gradient(to bottom right, rgb(207, 1, 1), rgb(95, 0, 0));
+  height: 100%;
 }
 .fairy{
-  background-color: rgb(196, 114, 185);
+  background: linear-gradient(to bottom right, rgb(196, 114, 185), rgb(150, 69, 139));
+  height: 100%;
 }
 .fighting{
-  background-color: red;
+  background: linear-gradient(to bottom right, red, rgb(167, 2, 2));
+  height: 100%;
 }
 .psychic{
-  background-color: rgb(255, 0, 212);
+  background: linear-gradient(to bottom right, rgb(255, 0, 212), rgb(139, 1, 116));
+  height: 100%;
 }
 .rock{
-  background-color: gray;
+  background: linear-gradient(to bottom right, gray, rgb(80, 80, 80));
+  height: 100%;
 }
 .ghost{
-  background-color: rgb(0, 185, 130);
+  background: linear-gradient(to bottom right, rgb(95, 172, 134), rgb(62, 96, 168));
+  height: 100%;
 }
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(10, 10, 10, 0.418);
 }
 
 /* Add some padding inside the card container */
