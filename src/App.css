@@ -208,6 +208,12 @@
 #ghost{
   background: linear-gradient(to bottom right, rgb(95, 172, 134), rgb(62, 96, 168));
 }
+#dragon{
+  background: linear-gradient(to bottom right, rgb(81, 69, 250), rgb(168, 62, 62));
+}
+#ice{
+  background: linear-gradient(to bottom right, rgb(215, 240, 238), rgb(45, 218, 248));
+}
 
 
 .grass{
@@ -260,6 +266,14 @@
 }
 .ghost{
   background: linear-gradient(to bottom right, rgb(95, 172, 134), rgb(62, 96, 168));
+  height: 100%;
+}
+.dragon{
+  background: linear-gradient(to bottom right, rgb(81, 69, 250), rgb(168, 62, 62));
+  height: 100%;
+}
+.ice{
+  background: linear-gradient(to bottom right, rgb(215, 240, 238), rgb(45, 218, 248));
   height: 100%;
 }
 
