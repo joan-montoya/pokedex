@@ -55,7 +55,6 @@ function App() {
           
         }
       }
-      console.log(pokearr)
     }
 
     function barral(val){
@@ -100,6 +99,8 @@ function App() {
                     <div className='informacion'>
                       <h1>{nombre}</h1>
                         <p><b>Xp base: </b>{pokearr[posicion].base_experience}</p>
+                        <p><b>height: </b> {pokearr[posicion].height}</p>
+                        <p><b>weight: </b> {pokearr[posicion].weight}</p>
                         <p className='habilidades'> Type: {pokearr[posicion].types[0].type.name}</p>
                         <p><b>Movimientos</b> <br></br>  
                           {pokearr[posicion].moves[0].move.name}, {pokearr[posicion].moves[1].move.name} <br></br>
