@@ -113,7 +113,9 @@ function App() {
           </div>
             <div className='botona' onClick={() => {setIn(inicio - 9); setFin(Final - 9);} }><h3 className='order'>Atras</h3></div>
             <div className='botons' onClick={() => {setIn(inicio + 10); setFin(Final + 10);} }><h3 className='order'>Siguiente</h3></div>
+            <div className='refres' onClick={() => window.location.reload()}> <h3 className='refresText'>Reload</h3></div>
           </div>
+          
       );
     }
     
