@@ -19,7 +19,7 @@ function App() {
     const arr = [];
 
     useEffect(() => {
-        fetch('https://pokeapi.co/api/v2/pokemon/?limit=100')
+        fetch('https://pokeapi.co/api/v2/pokemon/?limit=200')
             .then((response) => response.json())
             .then((data) => setResult(
                 data.results.map((item) => {
